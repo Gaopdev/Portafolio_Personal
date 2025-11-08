@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Portafolio</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <!--Menu encabezado-->
+        <div class="contededor-header">
+            <header>
+                <div class="logo">
+                    <a href="#">Jaret</a>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                        <li><a href="#educacion" onclick="seleccionar()">EDUCACION</a></li>
+                        <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                        <li><a href="#proyectos" onclick="seleccionar()">PROYECTOS</a>
+                            <ul>
+                                <li><a href="#thezone" onclick="seleccionar()">The Zone</a></li>
+                                <li><a href="#rated" onclick="seleccionar()">RATED</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </header>
+        </div>
+
+        <!--Seccion Inicio-->
+        <section id="Inicio" class="inicio">
+            <div class="contenido-banner">
+                <div class="contenedor-img">
+                    <img src="Recursos/Foto_Perfil.JPEG" alt="Foto de perfil">
+                </div>
+                <h1>Jaret Gustavo Ortega Vite</h1>
+                <h2>Estudiante en Ingeniera en sistemas y negocios digitales</h2>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!--Seccion Sobre Mi-->
+        <section id="sobremi" class="sobremi">
+            <div class="contenido-seccion">
+                <h2>Sobre Mi</h2>
+                <p><span>Soy Jaret Gustavo,</span>textoejemploparaesto.</p>
+                <div class="fila">
+                    <!--Intereses-->
+                    <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-intereses">
+                            <div class="intereses">
+                                <p><span>Me apasiona...</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Seccion Portafolio-->
+        <section id="portafolio" class="portafolio">
+            <div class="contenido-seccion">
+                <h2>Portafolio</h2>
+                <h3>Estos son algunos de mis trabajos.</h3>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <img src="Recursos\Foto_Perfil.JPEG" alt="">
+                        <div class="overlay">
+                            <h3>Diseno creativo</h3>
+                            <p>Descripcion breve</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="Recursos\CF_Vitanova.png" alt="">
+                        <div class="overlay">
+                            <h3>Sistema de citas para Vitanova</h3>
+                            <p>Se diseño desde el frontend y backend un sistema de reserva de citas para un grupo de psicologs en Vitanova.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <button>
+                Descargar CV<i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </section>
+        <!--Footer-->
+        <footer>
+            <a href="#Inicio" class="arriba">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
