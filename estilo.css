@@ -150,6 +150,18 @@ html{
     line-height: 22px;
     margin-bottom: 20px;
 }
+/*Seccion Skills*/
+.skills{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+.skills h2{
+    font-size: 48px;
+    font-family: 'Poppins';
+    text-align: center;
+    padding: 20px;
+}
 /*Seccion Portafolio*/
 .portafolio{
     background-color: #1e2326;
